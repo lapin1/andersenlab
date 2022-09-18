@@ -18,7 +18,7 @@ public class NumberTask {
 
     //task03
     public boolean checkNumberWithLogic(int a) {
-        return (a >= 0);
+        return (!(a >= 0));
     }
 
     //task with *
