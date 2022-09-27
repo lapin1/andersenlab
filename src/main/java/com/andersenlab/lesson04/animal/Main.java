@@ -33,8 +33,6 @@ public class Main {
         cats[2].eat(plate);
         System.out.println(cats[2].isFull());
 
-        System.out.println("Amount of created cats is: " + Cat.getCatAmount());
-
 
         Dog dog1 = new Dog("dog1");
         Dog dog2 = new Dog("dog2");
@@ -44,7 +42,9 @@ public class Main {
         dog2.run(400);
         dog3.eat(plate);
 
+        System.out.println("Amount of created cats is: " + Cat.getCatAmount());
         System.out.println("Amount of created dogs is: " + Dog.getDogAmount());
+        System.out.println("Amount of created animals: " + Animal.getAnimalCounter());
 
 
     }
