@@ -2,9 +2,10 @@ package com.andersenlab.lesson04.animal;
 
 public class Animal {
     private String name;
+    private static int animalCounter;
 
     public Animal() {
-
+        animalCounter++;
     }
 
     public Animal(String name) {
